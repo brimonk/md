@@ -10,3 +10,12 @@ It's purposefully simple and straight forward to allow for more and more functio
 make
 ```
 
+### Running
+
+If files are available in `$1` and `$2`, markdown will use those instead of `stdin` and `stdout`.
+
+```
+USAGE:
+    ./md <[input]> <[output]>
+```
+
